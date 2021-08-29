@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.teste{
+    height: 3000px;
+}
+body{
+    color:#ff7300;
+    color: white;
+    background: #444;
+    font-family: 'Cabin', sans-serif;
+}
+
+header{
+    padding: 25px;
+    font-size: 18px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    float: left;
+    width: 150px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script', cursive;
+}
+.logo-grande{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 200px; */
+    width: 65%;
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu li{
+    float: right;
+    margin-left: 30px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    border-bottom: 2px solid #ff7300;
+    color: #ff7300;
+}
+.btn{
+    float: left;
+    text-align: center;
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    width: 180px;
+    padding: 10px;
+    border: 2px solid #ff7300;
+    color: #ff7300;
+    background: none;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}    
+.btn:hover{
+    background: #ff7300;
+    color: white;
+}
+.btn-cel{
+    display: none;
+}
+.bunner img{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: black;
+
+}
+.sobre{
+    text-align: center;
+    padding: 40px;
+    /* bottom: 50px; */
+}
+.titulo{
+    font-size: 30px;
+    color: #ff7300;
+    width: 100%;
+    /* background: #475F94; */
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.titulo-categoria{
+    font-size: 25px;
+    margin: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.content-sobre{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.mais-vendidos{
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    text-transform: capitalize;
+    margin: 10px auto;
+    /* bottom: 40px; */
+}
+.card-container{
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.card{
+    width: 250px;
+    padding: 10px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+.quadr{
+    width: 200px;
+    height: 200px;
+    background: #212121;
+    border-radius: 15px;
+    margin: auto;
+    border: 2px solid #212121;
+}
+.nome-prato{
+    margin: 10px auto;  
+    color: #ff7300;
+}
+.preco{
+    color: #ff7300;
+}
+.descricao-prato{
+    margin: 10px auto;
+    color: black;
+}
+.nome-doce{
+    /* color: #DB1D00; */
+    color: #FF0023;
+}
+.quadr-doce{
+    border: 2px solid #FF0023;
+}
+.social{
+    width: 25px;
+}
+.descricao-doce{
+    text-transform: capitalize;
+}
+footer{
+    padding: 18px;
+    width: 100%;
+    background: #555;
+    text-align: center;
+}
+.logo-footer{
+    display: inline-block;
+    margin: 50px;
+}
+/* .social{
+    margin: 50px;
+} */
+.menu-footer{
+    list-style: none;
+    margin-top: 20px;
+
+}
+.menu-footer li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.menu-footer li a img {
+    width: 25px;
+}
+.menu-cel{
+    display: none;
+}
+

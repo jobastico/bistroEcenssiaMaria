@@ -1,0 +1,52 @@
+@media screen and (max-width: 1025px){
+    header{
+        display: none;
+    }
+    .bunner{
+        height: 700px;
+        overflow: hidden;
+        width:  100%;
+        /* position: relative; */
+    }
+    .bunner img{
+        width: 1300px;
+    }
+    .logo-grande{
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+    .btn-cel{
+        display: inline;
+        float: left;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        /* font-size: 18px; */
+        top: 50%;
+        width: 180px;
+        padding: 15px;
+        border: 2px solid white;
+        color: white;
+        background:#ff7300;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+    .card{
+        margin: 0;
+        float: none;
+    }
+    .menu-cel{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%)
+    }
+    .menu-cel li{
+        display: inline-block;
+        margin: 10px;
+    }
+ 
+}
